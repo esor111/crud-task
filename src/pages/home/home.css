@@ -1,0 +1,9 @@
+  /* Apply these styles to the search bar when the screen width is less than or equal to 600px */
+  @media (max-width: 600px) {
+    .form-row {
+      margin-left: 0; /* remove the left margin */
+    }
+    .col-5 {
+      width: 100%; /* make the input field take up the full width of the container */
+    }
+  }
